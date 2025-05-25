@@ -6,3 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[dev-dependencies]
+cargo-husky = { version = "1.5", features = [
+    "precommit-hook",
+    "prepush-hook",
+    "run-cargo-clippy",
+    "run-cargo-fmt",
+    "run-cargo-test",
+] }
