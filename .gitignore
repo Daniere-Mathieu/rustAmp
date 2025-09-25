@@ -4,3 +4,6 @@
 debug/
 **/*.rs.bk
 *.pdb
+*.mp3
+*.wav
+*.flac
