@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 cpal = "0.16.0"
+symphonia = { version= "0.5.4",  features = ["all-codecs",] }
 
 [dev-dependencies]
 cargo-husky = { version = "1.5", features = [
